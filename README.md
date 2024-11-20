@@ -67,4 +67,4 @@ Esta plataforma educativa está diseñada para facilitar el aprendizaje interact
 
 ## Contribuciones
 
-¡Se agradecen las contribuciones! Consulta la guía de contribución para obtener más información sobre cómo puedes participar en el proyecto.
+¡Se agradecen las contribuciones! 
