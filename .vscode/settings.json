@@ -1,3 +1,6 @@
 {
-    "vscode-pets.throwBallWithMouse": true
+    "vscode-pets.throwBallWithMouse": true,
+    "files.associations": {
+        "36tramasllc.h": "c"
+    }
 }

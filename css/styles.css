@@ -1,5 +1,14 @@
 /* styles.css */
 
+/* Paleta de colores*/
+:root{
+    --color-teal: #567c8d;
+    --color-beige: #f4efeb;
+    --color-navy: #2f4157;
+    --color-SkyBlue: #c7d9e5;
+
+}
+
 /* General */
 body {
     font-family: Arial, sans-serif;
