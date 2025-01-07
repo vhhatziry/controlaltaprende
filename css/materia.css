@@ -1,0 +1,175 @@
+
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif; /* Puedes cambiar esta fuente según tus necesidades */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo general */
+}
+
+/* Ajustes para la barra de navegación */
+header {
+    background-color: #2f4157; /* Color de fondo de la barra de navegación */
+    color: white;
+    padding: 0 0 0 0;
+}
+
+.container-logo img {
+    justify-content: left;
+    width: 100px; /* Tamaño del logo */
+    height: auto;
+}
+
+
+.container-navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: auto;
+    padding: 0 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.search-form{
+    justify-content: right;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+i{
+    width: auto; /* Tamaño del logo */
+    height: 10px;
+}
+
+nav ul li a:hover {
+    color: #add8e6; /* Color al pasar el cursor */
+}
+
+.search-form {
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+}
+
+.search-form input {
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.search-form button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+main{
+    padding: 1rem 0;
+}
+
+
+/* Ajustes para el temario */
+.accordion {
+    background-color: #add8e6;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.accordion-header:hover {
+    background-color: #2f4157;
+    color : white
+}
+
+.accordion-header h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.accordion-header svg {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.3s;
+}
+
+.accordion-content {
+    background-color: #e6f7ff;
+    padding: 10px 15px;
+    display: none;
+}
+
+.accordion.open .accordion-header svg {
+    transform: rotate(180deg);
+}
+
+.accordion.open .accordion-content {
+    display: block;
+}
+
+.accordion-content .link-container {
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 8px 0;
+    padding: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.accordion-content .link-container:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.accordion-content a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/*  Media queries   1023px - 768px    :   tablet       */
+@media(max-width: 768px){
+
+    html{
+        font-size: 55%;
+    }
+    
+}
+
+
+/*  Media queries   767px - 468px   :   celular     */
+@media(max-width: 468px){
+}
